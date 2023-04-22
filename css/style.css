@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Graphik LCG' , sans-serif;
+}
+.header{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(../images/BG_IMG1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: transparent;
+    white-space: nowrap;
+    max-width: 1378px;
+    padding: 40px 0 178px 0 !important;
+}
+
+.btn{
+    border: none !important;
+}
+.header_in h1{
+    max-width: 754px;
+    margin-bottom: 59px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    color: #F5F5F7;
+}
+.header_in_btn{
+    display: flex;
+    max-width: 643px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.header_in_btn button{
+    padding: 23px 40px;
+    border: 2px solid #F88308;
+    border-radius: 7px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #F5F5F7;
+}
+.header_in_btn button:hover{
+    background-color: #F88308;
+    cursor: pointer;
+}
+.header_in_links{
+    display: flex;
+    max-width: 858px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 261px;
+}
+.advantages{
+    max-width: 1378px;
+}
+.advantages h1{
+    max-width: 482px;
+    margin: 171px auto 59px auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%; 
+    text-align: center;
+    color: #08101F;
+}
+.advantages_items1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/* MEDIA QISMI */
+
+@media  (min-width: 1400px) and (max-width: 1920px){
+    .navbar-nav{
+        margin-left: 650px;
+        margin-right: 60px;
+    }
+}
+@media  (min-width: 1200px) and (max-width: 1399px){
+    .navbar-nav{
+        margin-left: 470px;
+        margin-right: 60px;
+    }
+}
+@media  (min-width: 991px) and (max-width: 1199px){
+    .navbar-nav{
+        margin-left: 300px;
+        margin-right: 60px;
+    }
+}
